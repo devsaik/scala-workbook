@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ScalaSbtSettings">
-    <option name="vmParameters" value="-XX:MaxPermSize=384M -Dhttps.proxyHost=proxy.kdc.capitalone.com&#9; -Dhttps.proxyPort=8099 -Dhttps.proxyUser=rca733 -Dhttps.proxyPassword=1234Abcd -Dhttp.proxyHost=proxy.kdc.capitalone.com&#9; -Dhttp.proxyPort=8099 -Dhttp.proxyUser=rca733 -Dhttp.proxyPassword=1234ABcd" />
-  </component>
-</project>
