@@ -20,4 +20,5 @@ def withAgreeting()={
 }
 notFunctionByName(withAgreeting)
 // you can observe greeting called multiple times
+// This is specifically useful when funtions are used in Streaming
 functionByName(withAgreeting)

@@ -4,10 +4,12 @@
 // functions do not work with type parameters or parameter default values
 
 // Function object here
-val getArea = (radius: Double) =>{
-  val PI=3.14
-  PI*radius*radius
-}: Double
+val getArea:(Double)=>Double = (radius: Double) =>{
+//val getArea = (radius: Double) =>{
+    val PI=3.14
+    PI*radius*radius
+  }: Double
+
 
 getArea(2)
 

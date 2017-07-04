@@ -35,27 +35,23 @@ for (day<-daysOfWeek){ day match {
   case "Mon" => println("Manic Monday")
   case anyday => println(anyday)
 }
-
 }
 println("below for loop is an expression")
 for (day<-daysOfWeek)yield{ day match  {
   case "Mon" => "Manic Monday"
   case anyday => anyday
 }
-
 }
 println("pattern guards if condition with in the expression of the for loop ")
 for (day<-daysOfWeek if day == "Mon" ) {
   println(day)
 }
-
 println("Nested for loops can be avoided")
 for {i<-0 to 2
      j <- 4 to 7 }{
 
 println(s"$i is a $j")
 }
-
 // if I pass val here as neither monday nor sunday then the result is a match error
 val dayOfTheWeek= "Wednesday"
 val typeOfDay = dayOfTheWeek match {
